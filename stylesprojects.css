@@ -1,0 +1,41 @@
+
+:root{
+    --primary-color: #1e9fb5fe;
+}
+.pageheading{
+    position: relative;
+        text-align: center; 
+        background-color: #1e9fb5fe; 
+        height:100px;
+        top: 10px;
+}
+.pageheading-name{
+    position: relative;
+    top:30px;
+}
+.playgame{
+    height:200px;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      margin: auto;
+      background-color: #60b6d3;
+      border-radius: 2rem;
+      border: var(--primary-color);
+      position: relative;
+      bottom: -20px;
+      color: black;
+      position: relative;
+text-align: center;
+}
+.project-heading{
+    position: relative;
+    top: 20px;
+}
+.projectone, .projecttwo, .projectthree, .project-heading{
+    position: relative;
+    text-align: center;
+}
+.projectone, .projecttwo, .projectthree{
+    top: 20px;
+}

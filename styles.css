@@ -2,8 +2,8 @@
     --primary-color: #1e9fb5fe;
 }
 body{
-    color: var(--primary-color);
     
+    color: var(--primary-color);
 }
 * {
     box-sizing: border-box;
