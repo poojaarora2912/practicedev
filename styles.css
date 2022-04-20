@@ -1,0 +1,70 @@
+:root{
+    --primary-color: #1e9fb5fe;
+}
+body{
+    color: var(--primary-color);
+    
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    
+    
+  }
+  
+  .left {
+    width: 55%;
+  }
+  
+  .right {
+    width: 45%;
+  }
+  
+  .coder{
+     left: 100px;
+     bottom:100px;
+  }
+
+  .details{
+      height:200px;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      margin: auto;
+      background-color: #60b6d3;
+  }
+  .details-projects{
+    background-color: white;
+      border-radius: 2rem;
+      border: var(--primary-color);
+      position: relative;
+      bottom: -40px;
+      
+      
+      
+       
+  }
+  /*.details-aboutme{
+    background-color:white;
+    border-radius: 2rem;
+    border: var(--primary-color);
+    position: relative;
+    bottom: -40px;
+    right: -10px;
+    
+}*/
+.aboutme{
+color: black;
+position: relative;
+text-align: center;
+top:50px;
+}
+  
+.aboutme-details{
+    color: var(--primary-color);
+}
