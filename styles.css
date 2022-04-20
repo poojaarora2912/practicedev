@@ -1,0 +1,53 @@
+:root{
+    --primary-color: #1e9fb5fe;
+}
+body{
+    color: var(--primary-color);
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    
+  }
+  
+  .left {
+    width: 55%;
+  }
+  
+  .right {
+    width: 45%;
+  }
+  
+  .coder{
+     left: 100px;
+     bottom:100px;
+  }
+
+  .details{
+      height:200px;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      margin: auto;
+  }
+  .details-projects{
+      background-color: var(--primary-color);
+      border-radius: 2rem;
+      border: var(--primary-color);
+      
+      
+      
+       
+  }
+  .details-aboutme{
+    background-color: var(--primary-color);
+    border-radius: 2rem;
+    border: var(--primary-color);
+
+}
+  
