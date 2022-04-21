@@ -68,3 +68,11 @@ top:50px;
 .aboutme-details{
     color: var(--primary-color);
 }
+.research-paper-button{
+  color: rgb(37, 32, 32);
+  border-style:initial;
+}
+.footer-area{
+  height:50px;
+  background-color: var(--primary-color);
+}
