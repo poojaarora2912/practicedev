@@ -1,0 +1,13 @@
+:root{
+    --primary-color: #1e9fb5fe;
+}
+header, footer{
+    height: 100px;
+    background-color: var(--primary-color) ;
+}
+.text-to-convert, .converted-text{
+    height: 150px;
+}
+.button-to-translate{
+    height:50px;
+}

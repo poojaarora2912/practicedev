@@ -32,10 +32,10 @@ text-align: center;
     position: relative;
     top: 20px;
 }
-.projectone, .projecttwo, .projectthree, .project-heading{
+.projectone, .projecttwo, .projectthree, .projectfour, .project-heading{
     position: relative;
     text-align: center;
 }
-.projectone, .projecttwo, .projectthree{
+.projectone, .projecttwo, .projectthree, .projectfour{
     top: 20px;
 }
