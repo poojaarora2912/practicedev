@@ -1,12 +1,12 @@
 var translateklingon = document.querySelector("#translateklingon");
 var translatevulcan = document.querySelector("#translatevulcan");
-//var translateromulan = document.querySelector("#translateromulan");
+var translateromulan = document.querySelector("#translateromulan");
 var inputtext = document.querySelector("#input");
 var outputtext = document.querySelector("#output");
 
 var serverURLKlingon = "https://api.funtranslations.com/translate/klingon.json";
 var serverURLVulcan = "https://api.funtranslations.com/translate/vulcan.json";
-//var serverURLRomulan = "https://api.funtranslations.com/translate/romulan.json";
+var serverURLRomulan = "https://api.funtranslations.com/translate/romulan.json";
 
 function errorHandler(error){
     console.log("Error occured", error);
@@ -40,7 +40,7 @@ function clickHandlerVulcan(){
             .catch(errorHandler)
         
         };
-/*function clickHandlerRomulan(){
+function clickHandlerRomulan(){
         var inputtext1 = inputtext.value;
           
             
@@ -52,7 +52,7 @@ function clickHandlerVulcan(){
             })
                 .catch(errorHandler)
             
-            };*/
+            };
 
 function getTranslationKlingon(text){
     return serverURLKlingon+"?"+"text="+text;
@@ -60,12 +60,12 @@ function getTranslationKlingon(text){
 function getTranslationVulcan(text){
     return serverURLVulcan+"?"+"text="+text;
 }
-//function getTranslationRomulan(text){
-  //  return serverURLRomulan+"?"+"text="+text;
-//}
+function getTranslationRomulan(text){
+    return serverURLRomulan+"?"+"text="+text;
+}
 
 
 
 translateklingon.addEventListener("click", clickHandlerKlingon)
 translatevulcan.addEventListener("click", clickHandlerVulcan)
-//translateromulan.addEventListener("click", clickHandlerRomulan)
+translateromulan.addEventListener("click", clickHandlerRomulan)
