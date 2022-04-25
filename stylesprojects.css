@@ -2,17 +2,7 @@
 :root{
     --primary-color: #1e9fb5fe;
 }
-.pageheading{
-    position: relative;
-        text-align: center; 
-        background-color: #1e9fb5fe; 
-        height:100px;
-        top: 10px;
-}
-.pageheading-name{
-    position: relative;
-    top:30px;
-}
+
 .playgame{
     height:200px;
       text-decoration: none;
@@ -31,11 +21,15 @@ text-align: center;
 .project-heading{
     position: relative;
     top: 20px;
+    color:black;
+}
+.project-description{
+    color: black;
 }
 .projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .project-heading{
     position: relative;
     text-align: center;
 }
 .projectone, .projecttwo, .projectthree, .projectfour, .projectfive{
-    top: 20px;
+    top: -10px;
 }

@@ -8,6 +8,67 @@ body{
 * {
     box-sizing: border-box;
   }
+
+  .navigation-header{
+    height: 150px;
+    background-color: var(--primary-color);
+  }
+
+  
+  .navigation-link-home{
+    color:black;
+    position: relative;
+    top:70px;
+    left:600px;
+    background-color: var(--primary-color);
+    border-radius: 100rem;
+    border: var(--primary-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    
+  }
+  .navigation-link-project{
+    color:black;
+    position: relative;
+    top:70px;
+    left:650px;
+    background-color: var(--primary-color);
+    border-radius: 100rem;
+    border: var(--primary-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    
+    
+  }
+  .navigation-link-aboutme{
+    color:black;
+    position: relative;
+    top:70px;
+    left:700px;
+    background-color: var(--primary-color);
+    border-radius: 100rem;
+    border: var(--primary-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+
+  .navigation-link-contact{
+    color:black;
+    position: relative;
+    top:70px;
+    left:750px;
+    background-color: var(--primary-color);
+    border-radius: 100rem;
+    border: var(--primary-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  .current{
+    background-color: white;
+    border-radius: 150rem;
+    padding: 0.5%;
+  }
+  
   
   /* Create two unequal columns that floats next to each other */
   .column {
@@ -71,8 +132,17 @@ top:50px;
 .research-paper-button{
   color: rgb(37, 32, 32);
   border-style:initial;
+  background-color: var(--primary-color);
+  color:black;
+      border-radius: 2rem;
+      border: var(--primary-color);
+     padding:0.5%;
+      text-decoration: none;
+      position: relative;
+      top:10px;
+      
 }
 .footer-area{
-  height:50px;
+  height:100px;
   background-color: var(--primary-color);
 }
