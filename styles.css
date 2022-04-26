@@ -12,6 +12,8 @@ body{
   .navigation-header{
     height: 150px;
     background-color: var(--primary-color);
+    
+    
   }
 
   
@@ -62,6 +64,7 @@ body{
     border: var(--primary-color);
     padding: 0.5rem 1rem;
     text-decoration: none;
+    
   }
   .current{
     background-color: white;
@@ -97,7 +100,11 @@ body{
       padding: 0.5rem 1rem;
       text-align: center;
       margin: auto;
-      background-color: #60b6d3;
+      background-color: var(--primary-color);
+      width: 90%;
+      
+      
+     
   }
   .details-projects{
     background-color: white;
