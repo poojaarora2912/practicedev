@@ -136,6 +136,27 @@ top:50px;
 .aboutme-details{
     color: var(--primary-color);
 }
+.achievements{
+  position: relative;
+  text-align: left;
+
+}
+.contact{
+  color: var(--primary-color);
+  position: relative;
+  top:50px;
+  
+}
+.form-details{
+  color:black;
+  position: relative;
+  
+  
+}
+
+.margin{
+  margin:10px 10px 10px 10px;
+}
 .research-paper-button{
   color: rgb(37, 32, 32);
   border-style:initial;

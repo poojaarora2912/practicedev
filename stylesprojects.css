@@ -22,6 +22,9 @@ text-align: center;
     position: relative;
     top: 20px;
     color:black;
+    position: relative;
+    text-align: center;
+    
 }
 .project-description{
     color: black;
