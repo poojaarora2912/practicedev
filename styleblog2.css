@@ -1,0 +1,39 @@
+:root{
+    --primary-color: #1e9fb5fe;
+}
+
+body{
+    
+    color: var(--primary-color);
+}
+* {
+    box-sizing: border-box;
+  }
+
+  
+  
+  .navigation-header{
+    height: 100px;
+    background-color: var(--primary-color);
+    
+    
+  }
+
+  .navigation-link-blogs{
+    color:black;
+    position: relative;
+    top:70px;
+    left:1000px;
+    background-color: var(--primary-color);
+    border-radius: 100rem;
+    border: var(--primary-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+  }
+  .blog-details{
+    margin: auto;
+    width: 60%;
+    border: 5px ;
+    padding: 10px;
+    text-align: justify;
+  }

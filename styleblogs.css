@@ -33,7 +33,7 @@ body{
     color:black;
     position: relative;
     top:70px;
-    left:630px;
+    left:650px;
     background-color: var(--primary-color);
     border-radius: 100rem;
     border: var(--primary-color);
@@ -46,31 +46,19 @@ body{
     color:black;
     position: relative;
     top:70px;
-    left:660px;
+    left:700px;
     background-color: var(--primary-color);
     border-radius: 100rem;
     border: var(--primary-color);
     padding: 0.5rem 1rem;
     text-decoration: none;
-  }
-  .navigation-link-blogs{
-    color:black;
-    position: relative;
-    top:70px;
-    left:690px;
-    background-color: var(--primary-color);
-    border-radius: 100rem;
-    border: var(--primary-color);
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    
   }
 
   .navigation-link-contact{
     color:black;
     position: relative;
     top:70px;
-    left:720px;
+    left:750px;
     background-color: var(--primary-color);
     border-radius: 100rem;
     border: var(--primary-color);
@@ -78,14 +66,46 @@ body{
     text-decoration: none;
     
   }
-
-  
   .current{
     background-color: white;
     border-radius: 150rem;
     padding: 0.5%;
   }
   
+  .playgame{
+    height:200px;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      text-align: center;
+      margin: auto;
+      background-color: #60b6d3;
+      border-radius: 2rem;
+      border: var(--primary-color);
+      position: relative;
+      bottom: -20px;
+      color: black;
+      position: relative;
+text-align: center;
+}
+.blog-heading{
+    position: relative;
+    top: 20px;
+    color:black;
+    position: relative;
+    text-align: center;
+    
+}
+.blog-description{
+    color: black;
+}
+.blogone, .blogtwo, .blog-heading{
+    position: relative;
+    text-align: center;
+}
+.blogone, .blogtwo{
+    top: -10px;
+}
+
   
   /* Create two unequal columns that floats next to each other */
   .column {
@@ -168,22 +188,15 @@ top:50px;
   
 }
 
+:root{
+    --primary-color: #1e9fb5fe;
+}
+
+
 .margin{
   margin:10px 10px 10px 10px;
 }
-.research-paper-button{
-  color: rgb(37, 32, 32);
-  border-style:initial;
-  background-color: var(--primary-color);
-  color:black;
-      border-radius: 2rem;
-      border: var(--primary-color);
-     padding:0.5%;
-      text-decoration: none;
-      position: relative;
-      top:10px;
-      
-}
+
 .footer-area{
   height:100px;
   background-color: var(--primary-color);
