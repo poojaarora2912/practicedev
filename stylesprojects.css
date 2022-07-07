@@ -29,10 +29,10 @@ text-align: center;
 .project-description{
     color: black;
 }
-.projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix, .project-heading{
+.projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix,.projectseven, .project-heading{
     position: relative;
     text-align: center;
 }
-.projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix{
+.projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix, .projectseven{
     top: -10px;
 }
