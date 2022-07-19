@@ -184,6 +184,18 @@ top:50px;
       top:10px;
       
 }
+.buttons{
+  color: rgb(37, 32, 32);
+  border-style:initial;
+  background-color: var(--primary-color);
+  color:black;
+      border-radius: 2rem;
+      border: var(--primary-color);
+     padding:0.5%;
+      text-decoration: none;
+      position: relative;
+      top:10px;
+}
 .footer-area{
   height:100px;
   background-color: var(--primary-color);
