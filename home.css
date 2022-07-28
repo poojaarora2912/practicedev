@@ -42,7 +42,12 @@ text-align: right;
     padding: 20px;
     color: black;
 }
+.off-white{
+    background-color: #F3F4F6;
+    margin: 30px;
+    border-radius: 10px;
 
+}
 .research-paper-button{
     color: rgb(37, 32, 32);
     border-style:initial;
