@@ -1,3 +1,4 @@
+
 .nav-header{
 background-color:#1e9fb5fe;
 display: flex;
@@ -23,7 +24,15 @@ text-align: right;
     border-radius: 150rem;
     padding: 0.5%;
   }
+.intro{
+    padding:20px;
+    text-align: center;
+}
+/* .intro-right{
+    flex: 1 0;
 
+text-align: center;
+} */
   .aboutme{
     color: black;
     position: relative;
