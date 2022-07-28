@@ -36,22 +36,4 @@ text-align: center;
 .projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix, .projectseven, .projecteight, .projectnine, .projectten, .projecteleven{
     top: -10px;
 }
-.reachmeat{
-    position: relative;
-    text-align: center;
-    color: black;
-}
-.buttons{
-    
-        color: rgb(37, 32, 32);
-        border-style:initial;
-        background-color: var(--primary-color);
-        color:black;
-        border-radius: 2rem;
-        border: var(--primary-color);
-        padding:0.5%;
-        text-decoration: none;
-        position: relative;
-        text-align: center;
-        align-items: center;
-  }
+

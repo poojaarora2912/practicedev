@@ -1,0 +1,76 @@
+.nav-header{
+background-color:#1e9fb5fe;
+display: flex;
+align-items: center;
+
+}
+.nav-left {
+   padding: 10px;
+   color: black;
+}
+.nav-right{
+flex: 1 0;
+text-align: right;
+
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+.current{
+    background-color: white;
+    border-radius: 150rem;
+    padding: 0.5%;
+  }
+
+  .aboutme{
+    color: black;
+    position: relative;
+    text-align: center;
+    top:50px;
+    }
+      
+    .aboutme-details{
+    color:#1e9fb5fe;
+ 
+    }
+  
+
+.contact-details{
+    text-align: center;
+    padding: 20px;
+    color: black;
+}
+
+.research-paper-button{
+    color: rgb(37, 32, 32);
+    border-style:initial;
+    background-color:#1e9fb5fe;
+    color:black;
+    border-radius: 3rem;
+    border: black;
+    padding:1%;
+    text-decoration: none;
+    position: relative;
+    top:10px;
+    border-style:outset;
+        
+  }
+  .buttons{
+    color: rgb(37, 32, 32);
+    border-style:initial;
+    /* background-color: var(--primary-color); */
+    color:black;
+        border-radius: 2rem;
+        /* border: var(--primary-color); */
+       padding:0.5%;
+        text-decoration: none;
+        position: relative;
+        top:10px;
+  }
+
+.footer{
+    height:40px;
+    background-color: #1e9fb5fe;
+}

@@ -9,68 +9,6 @@ body{
     box-sizing: border-box;
   }
 
-  .navigation-header{
-    height: 150px;
-    background-color: var(--primary-color);
-    
-    
-  }
-
-  
-  .navigation-link-home{
-    color:black;
-    position: relative;
-    top:70px;
-    left:600px;
-    background-color: var(--primary-color);
-    border-radius: 100rem;
-    border: var(--primary-color);
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    
-  }
-  .navigation-link-project{
-    color:black;
-    position: relative;
-    top:70px;
-    left:650px;
-    background-color: var(--primary-color);
-    border-radius: 100rem;
-    border: var(--primary-color);
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    
-    
-  }
-  .navigation-link-aboutme{
-    color:black;
-    position: relative;
-    top:70px;
-    left:700px;
-    background-color: var(--primary-color);
-    border-radius: 100rem;
-    border: var(--primary-color);
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-  }
-
-  .navigation-link-contact{
-    color:black;
-    position: relative;
-    top:70px;
-    left:750px;
-    background-color: var(--primary-color);
-    border-radius: 100rem;
-    border: var(--primary-color);
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    
-  }
-  .current{
-    background-color: white;
-    border-radius: 150rem;
-    padding: 0.5%;
-  }
   
   .playgame{
     height:200px;
