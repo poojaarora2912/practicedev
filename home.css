@@ -1,4 +1,7 @@
-
+body{
+    padding: 0;
+    margin: 0;
+}
 .nav-header{
 background-color:#1e9fb5fe;
 display: flex;
