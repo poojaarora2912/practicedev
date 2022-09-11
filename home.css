@@ -28,7 +28,7 @@ text-align: right;
     padding: 0.5%;
   }
 .intro{
-    padding:20px;
+    padding:10px;
     text-align: center;
 }
 /* .intro-right{
@@ -56,8 +56,9 @@ text-align: center;
 }
 .off-white-home{
     background-color:  #d9dadc;
-    margin: 30px;
+    margin: 50px;
     border-radius: 10px;
+   
 }
 .off-white{
     background-color: #F3F4F6;
