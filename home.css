@@ -54,6 +54,11 @@ text-align: center;
     padding: 20px;
     color: black;
 }
+
+#twitter, #mail, #instagram{
+    padding:8px;
+}
+
 .off-white-home{
     background-color:  #d9dadc;
     margin: 50px;
@@ -82,7 +87,7 @@ text-align: center;
   }
   .buttons{
     color: black;
-    text-decoration: underline;
+    text-decoration: none;
   }
 
 .footer{
