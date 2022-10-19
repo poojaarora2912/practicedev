@@ -29,11 +29,11 @@ text-align: center;
 .project-description{
     color: black;
 }
-.projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix,.projectseven, .projecteight, .projectnine, .projectten, .projecteleven, .projecttwelve, .projectthirteen,.projectfourteen, .project-heading{
+.projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix,.projectseven, .projecteight, .projectnine, .projectten, .projecteleven, .projecttwelve, .projectthirteen,.projectfourteen, .projectfifteen, .project-heading{
     position: relative;
     text-align: center;
 }
-.projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix, .projectseven, .projecteight, .projectnine, .projectten, .projecteleven, .projecttwelve, .projectthirteen, .projectfourteen{
+.projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix, .projectseven, .projecteight, .projectnine, .projectten, .projecteleven, .projecttwelve, .projectthirteen, .projectfourteen, .projectfifteen{
     top: -10px;
 }
 
