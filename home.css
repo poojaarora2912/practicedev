@@ -67,7 +67,9 @@ text-align: center;
 }
 .off-white{
     background-color: #F3F4F6;
-    margin: 30px;
+    margin: 20px;
+    padding-top:10px;
+    padding-bottom:30px;
     border-radius: 10px;
 
 }
