@@ -4,7 +4,7 @@
 }
 
 .playgame{
-    height:200px;
+      height:200px;
       text-decoration: none;
       padding: 0.5rem 1rem;
       text-align: center;
@@ -16,7 +16,7 @@
       bottom: -20px;
       color: black;
       position: relative;
-text-align: center;
+      text-align: center;
 }
 .project-heading{
     position: relative;
@@ -34,6 +34,6 @@ text-align: center;
     text-align: center;
 }
 .projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix, .projectseven, .projecteight, .projectnine, .projectten, .projecteleven, .projecttwelve, .projectthirteen, .projectfourteen, .projectfifteen{
-    top: -10px;
+    top: -20px;
 }
 
